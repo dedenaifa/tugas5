@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Nama Aplikasi -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DedeNaifa Quiz 01"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Input Nama Pelanggan -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pelanggan:"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/app_name"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <!-- EditText Nama Pelanggan -->
+    <EditText
+        android:id="@+id/et_customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Masukkan nama pelanggan"
+        android:layout_toRightOf="@id/app_name"/>
+
+    <!-- Tipe Pelanggan -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe Pelanggan:"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"/>
+
+    <!-- RadioGroup Tipe Pelanggan -->
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <!-- RadioButton Gold -->
+        <RadioButton
+            android:id="@+id/radio_gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold"
+            android:checked="true"/>
+
+        <!-- RadioButton Silver -->
+        <RadioButton
+            android:id="@+id/radio_silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver" />
+
+        <!-- RadioButton Biasa -->
+        <RadioButton
+            android:id="@+id/radio_biasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biasa" />
+    </RadioGroup>
+
+    <!-- Kode Barang -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang:"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/radio_group"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true" />
+
+    <!-- EditText Kode Barang -->
+    <EditText
+        android:id="@+id/et_product_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Masukkan kode barang" />
+
+    <!-- Jumlah Barang -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Barang:"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/et_product_code"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true" />
+
+    <!-- EditText Jumlah Barang -->
+    <EditText
+        android:id="@+id/et_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Masukkan jumlah barang" />
+
+    <!-- Button Proses -->
+    <Button
+        android:id="@+id/btn_process"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_quantity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Proses" />
+
+</RelativeLayout>
