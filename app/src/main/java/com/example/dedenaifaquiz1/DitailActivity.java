@@ -39,15 +39,15 @@ public class DitailActivity extends AppCompatActivity {
         TextView tvTotalAfterDiscount = findViewById(R.id.tv_total_after_discount);
 
         NumberFormat formatter = NumberFormat.getCurrencyInstance(new Locale("id", "ID")); // Menggunakan format Rupiah
-        tvCustomerName.setText("Selamat Datang: " + customerName);
-        tvCustomerType.setText("Tipe Pelanggan: " + customerType);
-        tvProductCode.setText("Kode Barang: " + productCode);
-        tvProductName.setText("Nama Barang: " + productName);
-        tvProductPrice.setText("Harga Barang: " + formatter.format(productPrice));
-        tvTotalPrice.setText("Total Harga: " + formatter.format(totalPrice));
-        tvDiscount.setText("Diskon Harga: " + formatter.format(discount));
-        tvDiscount.setText("Diskon Member: " + formatter.format(discount));
-        tvTotalAfterDiscount.setText("Total Setelah Diskon: " + formatter.format(totalAfterDiscount) +
+        tvCustomerName.setText(getText(R.string.SelamatDatang)+ customerName);
+        tvCustomerType.setText(getText(R.string.TipePelanggan) + customerType);
+        tvProductCode.setText(getText(R.string.KodeBarang) + productCode);
+        tvProductName.setText(getText(R.string.HargaBarang) + productName);
+        tvProductPrice.setText(getText(R.string.NamaBarang) + formatter.format(productPrice));
+        tvTotalPrice.setText(getText(R.string.HargaBarang) + formatter.format(totalPrice));
+        tvDiscount.setText(getText(R.string.DiskonHarga) + formatter.format(discount));
+        tvDiscount.setText(getText(R.string.DiskonMember) + formatter.format(discount));
+        tvTotalAfterDiscount.setText(getText(R.string.TotalHarga) + formatter.format(totalAfterDiscount) +
                 "\n\nTerima kasih telah berbelanja di sini");
 
         Button btnShare = findViewById(R.id.btn_share);

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DedeNaifaQuiz1</string>
+    <string name="NamaPelanggan">Buyer\'s name</string>
+    <string name="TipePelanggan">Customer Type</string>
+    <string name="Emas">Gold</string>
+    <string name="Perak">Silver</string>
+    <string name="Biasa">Biasa</string>
+    <string name="KodeBarang">Code barang</string>
+    <string name="JumlahBarang">The amount of goods</string>
+    <string name="Proses">Process</string>
+    <string name="SelamatDatang">WELCOME</string>
+    <string name="NamaBarang">Name of goods</string>
+    <string name="HargaBarang">Price of goods</string>
+    <string name="TotalHarga">Total price</string>
+    <string name="DiskonHarga">Price Discount</string>
+    <string name="DiskonMember">Member Discount</string>
+</resources>

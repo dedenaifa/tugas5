@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">DedeNaifaQuiz1</string>
+    <string name="NamaPelanggan">Nama Pelanggan</string>
+    <string name="TipePelanggan">Tipe Pelanggan</string>
+    <string name="Emas">Emas</string>
+    <string name="Perak">Perak</string>
+    <string name="Biasa">Biasa</string>
+    <string name="KodeBarang">Kode Barang</string>
+    <string name="JumlahBarang">Jumlah Barang</string>
+    <string name="Proses">Proses</string>
+    <string name="SelamatDatang">Selamat Datang</string>
+    <string name="HargaBarang">Harga Barang</string>
+    <string name="TotalHarga">Total Harga</string>
+    <string name="DiskonHarga">Diskon Harga</string>
+    <string name="DiskonMember">Diskon Member</string>
+    <string name="TotalSetalahDiskon">TotalSetelahDiskon</string>
+    <string name="Terimakasihtelahberbelanjadisini">Kode Barang</string>
+    <string name="NamaBarang">Nama Barang</string>
 </resources>

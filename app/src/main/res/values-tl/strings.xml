@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DedeNaifaQuiz1</string>
+    <string name="NamaPelanggan">Pangalan ng mamimili</string>
+    <string name="TipePelanggan">Uri ng Customer</string>
+    <string name="Emas">ginto</string>
+    <string name="Perak">pilak</string>
+    <string name="Biasa">Normal</string>
+    <string name="KodeBarang">Code barang</string>
+    <string name="JumlahBarang">Ang dami ng paninda</string>
+    <string name="Proses">Proseso</string>
+    <string name="SelamatDatang">WELCOME</string>
+    <string name="NamaBarang">Pangalan ng mga kalakal</string>
+    <string name="HargaBarang">Presyo ng mga bilihin</string>
+    <string name="TotalHarga">Kabuuang presyo</string>
+    <string name="DiskonHarga">Diskwento sa Presyo</string>
+    <string name="DiskonMember">Diskwento ng Miyembro</string>
+</resources>
